@@ -17,3 +17,37 @@ color:white;
 font-weight: 500;
 background-color: rgb(13, 168, 117);
 }
+.focusOnTyping{
+    border-radius: 30px !important;
+    padding-left: 20px !important;
+}
+textarea.focusOnTyping{
+   resize: none;
+}
+.focusOnTyping:focus{
+    border-bottom:3px solid #a3a3a7;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    background: #b2abab0d;
+    transition: all 0.2s ease-in 0s;
+}
+.boxeded-btn{
+    background: #fff;
+    color: #ff5f13;
+    display: inline-block;
+    padding: 15px 18px;
+    border-radius: 30px;
+    font-family: "Barlow",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: 3px solid #ff5f13;
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.boxeded-btn:hover{
+    transition: all 0.3s ease-in 0s;
+    background-color:#ff5f13  ;
+    color: white;
+}
