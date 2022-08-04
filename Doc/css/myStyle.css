@@ -9,13 +9,23 @@ a{
 .single-project{
     box-shadow: 5px 5px 15px rgb(56 60 61 / 20%);
 }
-.card1 .btn{
+.card1.btn{
     padding: 8px 6px;
+}
+@media screen and (max-width:768px) {
+    .btn{
+        padding: 6px 4px;
+    }  
 }
 .card1:hover:hover{
 color:white;
 font-weight: 500;
 background-color: rgb(13, 168, 117);
+}
+.project-img :hover{
+    width:100%;
+    transform: scale(1.09);
+    transition: all 0.6s ease-out 0s;
 }
 .focusOnTyping{
     border-radius: 30px !important;

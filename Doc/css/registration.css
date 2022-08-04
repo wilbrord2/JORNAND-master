@@ -1,0 +1,24 @@
+.container {
+    align-items: center;
+}
+.title{    
+    margin: 30px 20%;
+    padding: 20px 0px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.formTitle{
+padding: 0px 20px;
+}
+ .single-input, .input-group-icon{
+    display: inline-block;
+    margin: 10px 0px;
+    border-radius: 30px;
+    width: 100%;
+}
+.single-input,.input-group-icon:focus{
+    border: 1px solid;
+}
+.form-select .nice-select, .submitBtn{
+    border-radius: 30px;
+}
