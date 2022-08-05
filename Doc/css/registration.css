@@ -2,23 +2,49 @@
     align-items: center;
 }
 .title{    
-    margin: 30px 20%;
+    margin: 30px 0px;
     padding: 20px 0px;
     background-color: aliceblue;
     text-align: center;
 }
 .formTitle{
-padding: 0px 20px;
+    padding: 0px 20px;
 }
- .single-input, .input-group-icon{
+ .single-input{
     display: inline-block;
     margin: 10px 0px;
     border-radius: 30px;
     width: 100%;
 }
-.single-input,.input-group-icon:focus{
-    border: 1px solid;
+.form-select .nice-select{
+    padding-bottom: 3rem;
+}
+.form-select .nice-select,.single-input:focus {
+    border: 1px solid #90abc3;
 }
 .form-select .nice-select, .submitBtn{
     border-radius: 30px;
+    margin: 1rem 0px;
+}
+.form-select .nice-select .list .option {
+    font-weight: 500;
+    background: aliceblue!important;
+}
+
+.nice-select .list:hover .option:hover{
+transform: scaleX(1.05);
+font-size: 1rem;
+transition: all 0.001s ease-in 0s;
+}
+@media screen and (min-width:768px){
+    .title{    
+        margin: 30px 20%;
+        padding: 20px 0px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    form{ 
+        margin: 30px 20%;
+    }
+    
 }
