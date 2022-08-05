@@ -43,7 +43,7 @@ transition: all 0.001s ease-in 0s;
         background-color: aliceblue;
         text-align: center;
     }
-    form{ 
+    .formTitle{ 
         margin: 30px 20%;
     }
     
