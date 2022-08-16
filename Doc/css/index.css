@@ -1,0 +1,31 @@
+.single-team {
+    box-shadow: 0px 0px 5px 1px #7984a75c;
+}
+.single-team .team-img{
+    border-bottom: 1px solid;
+    border-bottom-color: #9ea0a63b;
+}
+.team-caption {
+    padding: 1rem;
+    background: #93a2d130;
+}
+.team-caption span:hover {
+    color: #0e132a;
+    transition: 0.3s ease-in-out 0.3s;
+}
+.section-tittle span.back-text {
+    font-size: 110px;
+    /* margin: 1px 0; */
+}
+.count-area {
+    margin-top: 0px;
+}
+.contact-with-area {
+    padding-bottom:0px;
+}
+@media screen and (max-width:992px){
+.count-area .count-clients .single-counter .count-text h5 {
+    color: #fff;
+    font-size: 20px;
+}
+}

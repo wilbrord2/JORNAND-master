@@ -1,0 +1,125 @@
+#contact-modal{
+    display:none;
+    position:fixed;
+    top: 0;
+    justify-content:center;
+    align-items:center;
+    background: rgb(0 0 0 / 88%);
+}
+#modal-content{
+    background: #efefef;
+    margin:0px auto;
+    width:60%;
+    box-shadow: 4px 4px 5px #383a7e57;
+    animation-name: modalSliderUp;
+    animation-duration: 0.5s;
+}
+#modal-header, #modal-footer{
+    background: #191a33;
+    color: #fff;
+    padding: 25px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#modal-header .close-modal{
+    font-size: 50px;
+    float: right;
+    position: relative;
+    bottom: 2rem;
+    left: 1rem;
+}
+#modal-header .close-modal:hover{
+    color:#ff5f13;
+    cursor:pointer;
+}
+#modal-body{
+    padding: 20px 30px;
+}
+#modal-body h3{
+    color:#0b1c39;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0;;
+}
+.form-group{
+    margin: 5px 0;
+    width: 75%;
+    margin-left: 12.5%;
+}
+.form-group input:focus{
+    border: 1px solid #90abc3;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 13px;
+    font-size:17px;
+}
+.form-group input, textarea{
+    width: 100%;
+    font-weight: 200px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size:17px
+    
+}
+input[type='submit']{
+    font-size:20px;
+    margin: 15px 0;
+    width: 20%;
+    margin-left: 12.5%;
+    transition: background 0.3s;
+}
+input[type='submit'] {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    background: #ff5f13;
+}
+@keyframes modalSliderUp {
+    0%{
+        transform:translateY(1500px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+@media screen and (max-width:768px){
+
+    #modal-content{
+        width:80%;
+        margin:20px;
+    }
+    .form-group label{
+        font-size:13px;
+        margin-bottom: 10px;
+    }
+    .form-group input, textarea{
+        width: 100%;
+        padding: 10px 10px;
+        font-size:13px
+    }
+    #modal-body h3{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    input[type='submit'] {
+        font-size: 15px;
+        margin-bottom: 10px;
+        width: 75%;
+        padding:1rem;
+    }
+    #modal-header, #modal-footer {
+        font-size: 13px;
+        padding: 15px 30px;
+    }
+    #modal-body {
+        padding: 10px 0px;
+    }
+}

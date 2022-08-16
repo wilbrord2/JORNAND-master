@@ -22,7 +22,8 @@ color:white;
 font-weight: 500;
 background-color: rgb(13, 168, 117);
 }
-.project-img :hover{
+.project-img img:hover{
+    overflow: hidden;
     width:100%;
     transform: scale(1.09);
     transition: all 0.6s ease-out 0s;
