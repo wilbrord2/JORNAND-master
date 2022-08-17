@@ -1,3 +1,6 @@
+#modal-open{
+    cursor: pointer;
+}
 #contact-modal{
     display:none;
     position:fixed;
@@ -15,7 +18,7 @@
     animation-duration: 0.5s;
 }
 #modal-header, #modal-footer{
-    background: #191a33;
+    background: #575d9b;
     color: #fff;
     padding: 25px 30px;
     text-align: center;
