@@ -1,6 +1,4 @@
-*{
-    cursor: default;
-}
+
 a{
     cursor: pointer;}
 /* .tab-pane{
@@ -61,4 +59,24 @@ textarea.focusOnTyping{
     transition: all 0.3s ease-in 0s;
     background-color:#ff5f13  ;
     color: white;
+}
+.ti-home:hover{
+    color:#ff5f13
+}
+.ti-email:hover{
+    color:#ff5f13
+}
+.ti-tablet:hover{
+    color:#ff5f13
+}
+.lesson .card{
+    margin: 15px 0px;
+    background:#dbf1f31e;
+}
+.lesson:hover{
+    cursor: pointer;
+}
+.lesson .card .card-body li{
+    list-style: decimal;
+    margin-left: 1rem;
 }
