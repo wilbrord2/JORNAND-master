@@ -1,2 +1,0 @@
-# JORNAND
-N4bMb@hH7#Tj8!n

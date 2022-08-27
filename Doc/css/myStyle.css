@@ -11,7 +11,7 @@ a{
     padding: 8px 6px;
 }
 @media screen and (max-width:768px) {
-    .btn{
+    .project-cap .btn{
         padding: 6px 4px;
     }  
     .course-title{
@@ -92,4 +92,11 @@ textarea.focusOnTyping{
 }
 .course-about p{
 margin-left: 3rem;
+}
+.roles-of-revit{
+        margin-left: 10%;
+        padding: 0 20px;
+}
+.roles-of-revit li{
+    list-style-type:circle;
 }
