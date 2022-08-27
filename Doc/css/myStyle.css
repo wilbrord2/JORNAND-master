@@ -1,102 +1,165 @@
+a {
+  cursor: pointer;
+}
 
-a{
-    cursor: pointer;}
 /* .tab-pane{
  background-color: aquamarine;
 } */
-.single-project{
-    box-shadow: 5px 5px 15px rgb(56 60 61 / 20%);
+.single-project {
+  box-shadow: 5px 5px 15px rgb(56 60 61 / 20%);
 }
-.card1.btn{
-    padding: 8px 6px;
-}
-@media screen and (max-width:768px) {
-    .project-cap .btn{
-        padding: 6px 4px;
-    }  
-    .course-title{
-        font-size: 20px;
-        font-weight: 500;
-    }
 
+.card1.btn {
+  padding: 8px 6px;
 }
-.card1:hover:hover{
-color:white;
-font-weight: 500;
-background-color: rgb(13, 168, 117);
+
+@media screen and (max-width: 768px) {
+  .project-cap .btn {
+    padding: 6px 4px;
+  }
+
+  .course-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
-.project-img img:hover{
-    overflow: hidden;
-    width:100%;
-    transform: scale(1.09);
-    transition: all 0.6s ease-out 0s;
+
+.card1:hover:hover {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(13, 168, 117);
 }
-.focusOnTyping{
-    border-radius: 30px !important;
-    padding-left: 20px !important;
+
+.project-img img:hover {
+  overflow: hidden;
+  width: 100%;
+  transform: scale(1.09);
+  transition: all 0.6s ease-out 0s;
 }
-textarea.focusOnTyping{
-   resize: none;
+
+.focusOnTyping {
+  border-radius: 30px !important;
+  padding-left: 20px !important;
 }
-.focusOnTyping:focus{
-    border-bottom:3px solid #a3a3a7;
-    border-radius: 30px;
-    padding-left: 20px;
-    font-size: 15px;
-    background: #b2abab0d;
-    transition: all 0.2s ease-in 0s;
+
+textarea.focusOnTyping {
+  resize: none;
 }
-.boxeded-btn{
-    background: #fff;
-    color: #ff5f13;
-    display: inline-block;
-    padding: 15px 18px;
-    border-radius: 30px;
-    font-family: "Barlow",sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    border: 3px solid #ff5f13;
-    letter-spacing: 3px;
-    text-align: center;
-    cursor: pointer;
+
+.focusOnTyping:focus {
+  border-bottom: 3px solid #a3a3a7;
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: 15px;
+  background: #b2abab0d;
+  transition: all 0.2s ease-in 0s;
 }
-.boxeded-btn:hover{
-    transition: all 0.3s ease-in 0s;
-    background-color:#ff5f13  ;
-    color: white;
+
+.boxeded-btn {
+  background: #fff;
+  color: #ff5f13;
+  display: inline-block;
+  padding: 15px 18px;
+  border-radius: 30px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border: 3px solid #ff5f13;
+  letter-spacing: 3px;
+  text-align: center;
+  cursor: pointer;
 }
-.ti-home:hover{
-    color:#ff5f13
+
+.boxeded-btn:hover {
+  transition: all 0.3s ease-in 0s;
+  background-color: #ff5f13;
+  color: white;
 }
-.ti-email:hover{
-    color:#ff5f13
+
+.ti-home:hover {
+  color: #ff5f13;
 }
-.ti-tablet:hover{
-    color:#ff5f13
+
+.ti-email:hover {
+  color: #ff5f13;
 }
-.lesson .card{
-    margin: 15px 0px;
-    background:#dbf1f31e;
-    margin-left: 2rem;
+
+.ti-tablet:hover {
+  color: #ff5f13;
 }
-.lesson:hover{
-    cursor: pointer;
+
+.lesson .card {
+  margin: 15px 0px;
+  background: #dbf1f31e;
+  margin-left: 2rem;
 }
-.lesson .card .card-body li{
-    list-style: decimal;
-    margin-left: 1rem;
+
+.lesson:hover {
+  cursor: pointer;
 }
-.course-title{
-    font-size: 50px;
-    font-weight: 800;
+
+.lesson .card .card-body li {
+  list-style: decimal;
+  margin-left: 1rem;
 }
-.course-about p{
-margin-left: 3rem;
+
+.course-title {
+  font-size: 50px;
+  font-weight: 800;
 }
-.roles-of-revit{
-        margin-left: 10%;
-        padding: 0 20px;
+
+.course-about p {
+  margin-left: 3rem;
 }
-.roles-of-revit li{
-    list-style-type:circle;
+
+.roles-of-revit {
+  margin-left: 10%;
+  padding: 0 20px;
+}
+
+.roles-of-revit li {
+  list-style-type: circle;
+}
+.price2 {
+  background-image: url(/Doc/img/redBanner.png);
+}
+.price0 {
+  background-image: url(/Doc/img/blueBanner.png);
+}
+.price1 {
+  background-image: url(/Doc/img/greenBanner.png);
+}
+.price {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 13px;
+  background-size: contain;
+}
+
+.price span {
+  color: #fff;
+  position: relative;
+  top: 45%;
+  left: 25%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 580px) {
+  .pricing {
+    display: block;
+  }
+  .price {
+    background-size: 100vh;
+    border-radius: 20px;
+    margin: 10px 20% 0 20%;
+    padding: 15px;
+  }
+  .price span {
+    position: unset;
+    top: 0;
+    left: 0;
+  }
 }
